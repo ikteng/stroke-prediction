@@ -67,6 +67,10 @@ Here is the breakdown of the main components of the code:
 - evalute the trained models using test data
 - metrics such as classification report, confusion matrix, accuracy, ROC AUC score, precision, recall, and F1 score are calculated and printed for each model
 
+![classification report for random forest](media/classification report for random forest.png)
+
+![classification report for xgboost](media/classification report for xgboost.png)
+
 ## Composite Score Calculation
 - calculate a composite score based on multiple evaluation metrics
 - each metric is assigned a weight, and the composite score is calculated as the sum of the products of each metric's value and its weight
@@ -75,6 +79,8 @@ Here is the breakdown of the main components of the code:
 - select the best performing model based on the composite score
 - iterates over each model, makes predictions, calculates evaluation metrics, and computes the composite score
 - the model with the highest composite score is selected as the best model
+
+![composite score and selecting best model](media/composite score and best model.png)
 
 ## Main Method
 - loads the data, splits it into train and test sets, and trains the Random Forest and XGBoost models
