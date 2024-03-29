@@ -67,9 +67,9 @@ Here is the breakdown of the main components of the code:
 - evalute the trained models using test data
 - metrics such as classification report, confusion matrix, accuracy, ROC AUC score, precision, recall, and F1 score are calculated and printed for each model
 
-![classification report for random forest](media/classification report for random forest.png)
+![classification report for random forest]([media/classification report for random forest.png](https://github.com/ikteng/stroke-prediction/blob/271614feeda8fd9943dd33df33b91171d945bdfd/media/classification%20report%20for%20random%20forest.png))
 
-![classification report for xgboost](media/classification report for xgboost.png)
+![classification report for xgboost]([media/classification report for xgboost.png](https://github.com/ikteng/stroke-prediction/blob/271614feeda8fd9943dd33df33b91171d945bdfd/media/classification%20report%20for%20xgboost.png))
 
 ## Composite Score Calculation
 - calculate a composite score based on multiple evaluation metrics
@@ -80,7 +80,7 @@ Here is the breakdown of the main components of the code:
 - iterates over each model, makes predictions, calculates evaluation metrics, and computes the composite score
 - the model with the highest composite score is selected as the best model
 
-![composite score and selecting best model](media/composite score and best model.png)
+![composite score and selecting best model]([media/composite score and best model.png](https://github.com/ikteng/stroke-prediction/blob/7c2ef3be5c5b345bba4d20b1715163aa9bc63a74/media/composite%20score%20and%20best%20model.png))
 
 ## Main Method
 - loads the data, splits it into train and test sets, and trains the Random Forest and XGBoost models
